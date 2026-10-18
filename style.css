@@ -379,7 +379,7 @@ nav a.active {
 .acad-hero {
     background:
         linear-gradient(to right, #0b2a5b 30%, rgba(11, 42, 91, 0) 65%),
-        url("../images/school.jpg") center / cover;
+        url("..images/school.jpg") center / cover;
     color: white;
     padding: 50px 120px 60px;
 }
