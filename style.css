@@ -985,3 +985,58 @@ nav a.active {
     .qr-layout { flex-direction: column; }
     .qr-form, .qr-preview { width: 100%; box-sizing: border-box; }
 }
+/* Mobile layout fix */
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: 600px;
+    box-sizing: border-box;
+    padding: 60px 24px;
+    overflow-wrap: break-word;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    max-width: 100%;
+    line-height: 1.6;
+  }
+}
